@@ -1,0 +1,26 @@
+﻿/*-- 头部 --*/
+.header {
+	position: relative;
+	z-index: 99;
+	background: #FCD846;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.agileits-logo {
+}
+.agileits-logo a {
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 35px;
+	color: #333;
+	font-weight: 700;
+	margin-left: 50px;
+	text-align: inherit;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+.agileits-logo img {
+	position: absolute;
+	height: 55px;
+	width: 55px;
+	left: -10px;
+	top: -1px;
+}
