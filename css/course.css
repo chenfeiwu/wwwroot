@@ -1,0 +1,19 @@
+﻿.main{
+    padding-top: 10px;
+    height: 100%;
+}
+.main-subject [class ^= col-xs]{
+    border: 1px solid #ccc4c4;
+    border-radius: 4px;
+}
+.main-content{
+    padding: 50px 0 10px 0;
+}
+.main-content [class ^= col]{
+    margin-bottom: 20px;
+}
+.main-content .content-box{
+    box-shadow: #bfbbbb 0 0 5px 1px;
+    padding: 1px 20px;
+    border-radius: 3px;
+}
