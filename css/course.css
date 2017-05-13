@@ -2,12 +2,23 @@
     padding-top: 10px;
     height: 100%;
 }
+.main a{
+    text-decoration: none
+}
 .main-subject [class ^= col-xs]{
     border: 1px solid #ccc4c4;
     border-radius: 4px;
 }
+.main-subject blockquote{
+    text-indent: 1em;
+    background: url("../images/course.png") no-repeat 5px 10px;
+}
 .main-content{
     padding: 50px 0 10px 0;
+}
+.main-content blockquote{
+    text-indent: 1em;
+    background: url("../images/book.png") no-repeat 5px 10px;
 }
 .main-content [class ^= col]{
     margin-bottom: 20px;
@@ -17,7 +28,19 @@
     padding: 1px 20px;
     border-radius: 3px;
 }
+.main-content .content-box:hover{
+    background:#f7f7f7;
+}
 .main-content small{
     margin-top: 15px;
     display: block;
+}
+.main blockquote{
+    border-left-color:#fcd846;
+}
+.main .main-content a{
+    color: #000000;
+}
+.main .main-content a:hover{
+    color: #fcd846;
 }
