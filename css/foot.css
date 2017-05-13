@@ -99,17 +99,40 @@ footer a:hover {
 
 /*  Media queries 
 ============================= */
-@media (min-width: 768px) and (max-width: 979px) {
+@media(max-width: 979px) {
+    body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    footer .col-md-3, footer .col-lg-6, {
+        margin-bottom: 20px;
+    }
+
+    .foot1 {
+        margin-left: 70px;
+    }
+
+    .link-list img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .fontimg1 {
+        float: left;
+        left:25%;
+        margin-left: -75px;
+    }
+
+    .fontimg2 {
+        float: right;
+        right: 25%;
+        margin-right: -75px;
+    }
 }
 
 @media (max-width: 767px) {
-body {
-	padding-right: 0;
-	padding-left: 0;
-}
- footer .col-md-3, footer .col-lg-6, {
- margin-bottom: 20px;
-}
+
 }
 
 @media (min-width:768px) {
