@@ -1,0 +1,137 @@
+﻿h5{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	line-height: 1.1em;
+	color: #09b567;
+	margin-bottom: 20px;
+}
+/* --- portfolio detail --- */
+blockquote {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	padding-left: 0;
+	color: #a2a2a2;
+	line-height: 1.6em;
+	border: none;
+}
+/* --- pullquotes --- */
+   
+/* --- button --- */
+     
+/* --- list style --- */
+ul.link-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.link-list li {
+	margin: 0;
+	padding: 2px 0 2px 0;
+	list-style: none;
+}
+footer {
+	background: #1B1B1B;
+}
+footer ul.link-list li a {
+	color: #949494;
+}
+footer ul.link-list li a:hover {
+	color: #eee;
+}
+/* --- Heading style --- */
+
+.widgetheading {
+	width: 100%;
+	padding: 0;
+}
+footer .widgetheading {
+	position: relative;
+}
+/* --- Map --- */
+                                                                  /* ===== Widgets ===== */
+/* --- flickr --- */
+         
+/* --- Recent post widget --- */
+footer {
+	padding: 50px 0 0 0;
+	color: #949494;
+}
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	color: #eee;
+}
+    footer h5 {
+        color: #f39c12;
+    }
+footer address {
+	line-height: 1.6em;
+}
+footer a:hover {
+	text-decoration: none;
+}
+#sub-footer {
+	text-shadow: none;
+	color: #f5f5f5;
+	padding: 0;
+	padding-top:10px;
+    padding-bottom:10px;
+	margin: 20px 0 0 0;
+	background: #191919;
+}
+#sub-footer p {
+	margin: 0;
+	padding: 0;
+}
+.copyright {
+	text-align: left;
+	font-size: 12px;
+}
+
+ 
+/* scroll to top */
+                                    ============================= */ .clear-marginbot {
+ margin-bottom: 0;
+}
+
+/*  Media queries 
+============================= */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+@media (max-width: 767px) {
+body {
+	padding-right: 0;
+	padding-left: 0;
+}
+ footer .col-md-3, footer .col-lg-6, {
+ margin-bottom: 20px;
+}
+}
+
+@media (min-width:768px) {
+}
+
+@media (max-width: 480px) {
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
