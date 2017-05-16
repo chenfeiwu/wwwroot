@@ -155,7 +155,6 @@ p:last-child {
 .w3l-heading h3 {
 	text-align: center;
 	color: #333;
-	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2em;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -413,7 +412,7 @@ body {
 	margin: 0 0 15px;
 }
 .kopa-widget-features .module-features-01 .entry-item .entry-content .entry-title a {
-	color: #2c3e50;
+	color: #333;
 }
 .kopa-widget-features .module-features-01 .entry-item .entry-content .entry-title:after {
 	position: absolute;
@@ -509,7 +508,7 @@ body {
 	font-weight: 700;
 }
 .kopa-widget-list_event .module-list_event-01 .entry-item .entry-content .entry-title a {
-	color: #2c3e50;
+	color: #333;
 }
 .kopa-widget-partners .widget-header {
 	margin: 70px 0 0;
@@ -552,6 +551,7 @@ body {
 	margin: 10px 0 0;
 }
 .widget-header h4 {
+	color: #333;
 	font-size: 24px;
 	line-height: 36px;
 	letter-spacing: 0.5px;
